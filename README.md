@@ -11,7 +11,10 @@ The controller and RoboTank will communicate through Bluetooth.
 An auto-stop feature that stops the Robo-Tank when an object is too close to the front sensor.
 An alarm system that increases in frequency when the back sensor sees an object while reversing.
 A semi autonomous and autonomous mode giving the ADC sensors some and full control of the RoboTank system.
+
+
 RoboTank Inputs: ADC sensor data and receive control commands via UART using Bluetooth SPP.
 RoboTank Outputs: PWMs the control the motor and the operation of RoboTank.
+
 Controller Inputs: User key presses to select modes, and control commands.
 Controller Outputs: Control commands sent out via UART using Bluetooth SPP.
