@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>476838543</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\TimerHandler.h</file>
+      <file>$PROJ_DIR$\UART.c</file>
+      <file>$PROJ_DIR$\uart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\semphr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\common.o</file>
+      <file>$PROJ_DIR$\..\..\Source\include\timers.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\mpu_wrappers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\inc\hw_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\inc\hw_sysctl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\inc\hw_ssi.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\list.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\croutine.o</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\grlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_4.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\osram128x64x4.pbi</file>
+      <file>$PROJ_DIR$\..\..\Source\include\deprecated_definitions.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\UART.pbi</file>
+      <file>$PROJ_DIR$\..\..\Source\include\event_groups.h</file>
+      <file>$PROJ_DIR$\..\Common\include\flash.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tasks.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\formike128x128x16.o</file>
+      <file>$PROJ_DIR$\bitmap.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\..\Source\include\task.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\sysctl.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\UART.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\keypad.o</file>
+      <file>$PROJ_DIR$\..\..\Source\include\portable.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\ssi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\IAR\driverlib.a</file>
+      <file>$PROJ_DIR$\..\..\Source\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\pwm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\inc\lm3s8962.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\motor.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\RTOSDemo.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_4.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tasks.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\inc\hw_timer.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\rit128x96x4.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rit128x96x4.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\formike128x128x16.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\inc\hw_ints.h</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\flash.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\formike128x128x16.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\driverlib\ewarm-cm3\Exe\driverlib-cm3.a</file>
+      <file>$PROJ_DIR$\osram128x64x4.c</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\IAR\grlib.a</file>
+      <file>$PROJ_DIR$\rit128x96x4.c</file>
+      <file>$PROJ_DIR$\startup_ewarm.c</file>
+      <file>$PROJ_DIR$\..\..\Source\croutine.c</file>
+      <file>$PROJ_DIR$\..\..\Source\event_groups.c</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\MemMang\heap_4.c</file>
+      <file>$PROJ_DIR$\..\..\Source\list.c</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\port.c</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\portasm.s</file>
+      <file>$PROJ_DIR$\..\..\Source\queue.c</file>
+      <file>$PROJ_DIR$\..\..\Source\tasks.c</file>
+      <file>$PROJ_DIR$\..\..\Source\timers.c</file>
+      <file>$PROJ_DIR$\common.c</file>
+      <file>$PROJ_DIR$\common.h</file>
+      <file>$PROJ_DIR$\keypad.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\inc\hw_types.h</file>
+      <file>$PROJ_DIR$\keypad.h</file>
+      <file>$PROJ_DIR$\motor.c</file>
+      <file>$PROJ_DIR$\TimerHandler.c</file>
+      <file>$PROJ_DIR$\..\..\Source\include\croutine.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rit128x96x4.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\gpio.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\interrupt.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\debug.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\motor.pbi</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\rom.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\StackMacros.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RTOSDemo.pbd</file>
+      <file>$PROJ_DIR$\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\queue.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\projdefs.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.o</file>
+      <file>$PROJ_DIR$\LM3Sxxxx.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\queue.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TimerHandler.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\osram128x64x4.h</file>
+      <file>$PROJ_DIR$\lcd_message.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\keypad.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\RTOSDemo.map</file>
+      <file>$PROJ_DIR$\formike128x128x16.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\portasm.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\event_groups.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\port.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\osram128x64x4.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\portmacro.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\TimerHandler.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\Common\drivers\LuminaryMicro\lmi_timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\croutine.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\event_groups.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\RoboSlaveSide\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\motor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\RoboSlaveSide\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\TimerHandler.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\RoboSlaveSide\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\main.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\UART.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80 31 59 47 7 122 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 31 59 47 7 122 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\RTOSDemo.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 100 8 17 63 125 27 65 19 33 127 126 45 115 114 110 101 57 118 54 103 124 32 37 98 86 111</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 30 16 44 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 30 16 44 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 41 117 112 36 87 104 52 20 3 50 116 48 38 4 95 97 34 22 119 121 10 30 16 96 5 80 59 7 31 18 56 105 109 25 106 28 0 81 78 39 89 44 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 41 117 112 36 87 104 52 20 3 50 116 48 38 4 95 97 34 22 119 121 10 30 16 96 5 80 59 7 31 18 56 105 109 25 106 28 0 81 78 39 89 44 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\formike128x128x16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 7 80 88 31 92 18 109 50 41 117 112 36 87 104 52 20 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 7 80 88 31 92 18 109 50 41 117 112 36 87 104 52 20 116</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osram128x64x4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 7 14 80 90 88 35 31 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 7 14 80 90 88 35 31 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rit128x96x4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 7 14 80 90 88 35 31 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 7 14 80 90 88 35 31 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\croutine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 4 41 117 112 36 87 104 52 20 48 95 97 34 22 119 121 10 30 16 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 4 41 117 112 36 87 104 52 20 48 95 97 34 22 119 121 10 30 16 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\event_groups.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 30 16 9 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 30 16 9 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\portable\MemMang\heap_4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 30 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 30 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121 41 38 4 117 112 36 87 104 52 20 48 95 97 34 22 119 10 30 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121 41 38 4 117 112 36 87 104 52 20 48 95 97 34 22 119 10 30 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\portasm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 95</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 41 117 112 36 87 104 52 20 50 116 38 4 48 95 97 34 22 119 121 10 30 16 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 41 117 112 36 87 104 52 20 50 116 38 4 48 95 97 34 22 119 121 10 30 16 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 41 117 112 36 87 104 52 20 50 116 38 4 48 95 97 34 22 119 121 10 30 16 9 93 46 3</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 41 117 112 36 87 104 52 20 50 116 38 4 48 95 97 34 22 119 121 10 30 16 9 93 46 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 30 16 96 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 41 117 112 36 87 104 52 20 38 4 48 95 97 34 22 119 121 10 30 16 96 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 4 41 117 112 36 87 104 52 20 48 95 97 34 22 119 121 10 30 16 96 5 78 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 4 41 117 112 36 87 104 52 20 48 95 97 34 22 119 121 10 30 16 96 5 78 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\keypad.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 41 117 112 36 87 104 52 80 31 44 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 41 117 112 36 87 104 52 80 31 44 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 4 41 117 112 36 87 104 52 20 48 95 97 34 22 119 121 10 30 16 96 106 5 80 31 59 47 7 89 122 55 44 39 88 56 81 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 4 41 117 112 36 87 104 52 20 48 95 97 34 22 119 121 10 30 16 96 106 5 80 31 59 47 7 89 122 55 44 39 88 56 81 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\TimerHandler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 4 41 117 112 36 87 104 52 20 48 95 97 34 22 119 121 10 30 16 96 5 80 31 59 47 7 122 44 88 56 81 89 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 4 41 117 112 36 87 104 52 20 48 95 97 34 22 119 121 10 30 16 96 5 80 31 59 47 7 122 44 88 56 81 89 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 49 108</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

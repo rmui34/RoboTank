@@ -1,0 +1,611 @@
+###############################################################################
+#
+# IAR ELF Linker V7.20.1.7305/W32 for ARM                 20/Mar/2015  11:31:52
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Exe\RTOSDemo.out
+#    Map file     =  
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\List\RTOSDemo.map
+#    Command line =  
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\common.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\croutine.o
+#        C:\StellarisWare\driverlib\ewarm-cm3\Exe\driverlib-cm3.a
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\event_groups.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\formike128x128x16.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\Common\drivers\LuminaryMicro\IAR\grlib.a
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\heap_4.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\keypad.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\list.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\main.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\motor.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\osram128x64x4.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\port.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\portasm.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\queue.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\rit128x96x4.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\startup_ewarm.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\tasks.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\TimerHandler.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\timers.o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj\UART.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Exe\RTOSDemo.out
+#        --map
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\List\RTOSDemo.map
+#        --config
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\LM3Sxxxx.icf
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\..\Common\drivers\LuminaryMicro\IAR\driverlib.a
+#        C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\..\Common\drivers\LuminaryMicro\IAR\grlib.a
+#        --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x00000000-0x0003ffff] { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0003ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x100
+  .intvec            const    0x00000000   0x100  startup_ewarm.o [1]
+                            - 0x00000100   0x100
+
+"P1":                                     0x43a4
+  .text              ro code  0x00000100   0xd84  motor.o [1]
+  .text              ro code  0x00000e84   0x3f8  sysctl.o [4]
+  .text              ro code  0x0000127c   0x116  gpio.o [4]
+  .text              ro code  0x00001392    0x2e  copy_init3.o [6]
+  .text              ro code  0x000013c0    0x7e  pwm.o [4]
+  .text              ro code  0x0000143e    0x22  zero_init3.o [6]
+  .text              ro code  0x00001460   0x734  queue.o [1]
+  .text              ro code  0x00001b94   0x340  rit128x96x4.o [1]
+  .text              ro code  0x00001ed4   0xbb8  tasks.o [1]
+  .text              ro code  0x00002a8c   0x1b6  main.o [1]
+  .text              ro code  0x00002c42     0x6  startup_ewarm.o [1]
+  .text              ro code  0x00002c48   0x1d0  port.o [1]
+  .text              ro code  0x00002e18    0x98  list.o [1]
+  .text              ro code  0x00002eb0   0x240  heap_4.o [1]
+  CODE               ro code  0x000030f0    0x94  portasm.o [1]
+  .text              ro code  0x00003184    0x76  ABImemcpy_unaligned.o [6]
+  .rodata            const    0x000031fa     0x2  rit128x96x4.o [1]
+  .text              ro code  0x000031fc    0x86  ssi.o [4]
+  .rodata            const    0x00003282     0x2  rit128x96x4.o [1]
+  .text              ro code  0x00003284   0x3e4  timers.o [1]
+  .text              ro code  0x00003668    0x62  memcmp_unaligned.o [6]
+  .text              ro code  0x000036cc    0x66  ABImemset.o [6]
+  .text              ro code  0x00003734    0xd8  UART.o [1]
+  .text              ro code  0x0000380c    0xa8  keypad.o [1]
+  .text              ro code  0x000038b4   0x1e8  TimerHandler.o [1]
+  .text              ro code  0x00003a9c   0x19c  interrupt.o [4]
+  .text              ro code  0x00003c38    0x42  strcmp_unaligned.o [6]
+  .text              ro code  0x00003c7c    0x56  timer.o [4]
+  .text              ro code  0x00003cd4    0x1c  adc.o [4]
+  .text              ro code  0x00003cf0    0x22  common.o [1]
+  .rodata            const    0x00003d14   0x1e0  rit128x96x4.o [1]
+  .rodata            const    0x00003ef4    0x74  main.o [1]
+  .rodata            const    0x00003f68    0x70  heap_4.o [1]
+  .rodata            const    0x00003fd8    0x70  port.o [1]
+  .rodata            const    0x00004048    0x5c  queue.o [1]
+  .rodata            const    0x000040a4    0x5c  tasks.o [1]
+  .rodata            const    0x00004100    0x5c  timers.o [1]
+  .rodata            const    0x0000415c    0x50  rit128x96x4.o [1]
+  .text              ro code  0x000041ac    0x28  data_init.o [6]
+  .iar.init_table    const    0x000041d4    0x24  - Linker created -
+  .text              ro code  0x000041f8    0x1a  cmain.o [6]
+  .text              ro code  0x00004212     0x4  low_level_init.o [3]
+  .text              ro code  0x00004216     0x4  exit.o [3]
+  .text              ro code  0x0000421c     0xa  cexit.o [6]
+  .text              ro code  0x00004228     0xc  XXexit.o [6]
+  .rodata            const    0x00004234    0x18  motor.o [1]
+  .rodata            const    0x0000424c    0x18  motor.o [1]
+  .rodata            const    0x00004264    0x18  motor.o [1]
+  .rodata            const    0x0000427c    0x18  UART.o [1]
+  .rodata            const    0x00004294    0x14  tasks.o [1]
+  .rodata            const    0x000042a8    0x14  TimerHandler.o [1]
+  .rodata            const    0x000042bc    0x10  motor.o [1]
+  .rodata            const    0x000042cc    0x10  motor.o [1]
+  .rodata            const    0x000042dc    0x10  motor.o [1]
+  .rodata            const    0x000042ec    0x10  motor.o [1]
+  .rodata            const    0x000042fc    0x10  motor.o [1]
+  .rodata            const    0x0000430c    0x10  motor.o [1]
+  .rodata            const    0x0000431c    0x10  motor.o [1]
+  .rodata            const    0x0000432c    0x10  motor.o [1]
+  .rodata            const    0x0000433c    0x10  motor.o [1]
+  .rodata            const    0x0000434c    0x10  motor.o [1]
+  .rodata            const    0x0000435c    0x10  motor.o [1]
+  .rodata            const    0x0000436c    0x10  motor.o [1]
+  .rodata            const    0x0000437c    0x10  motor.o [1]
+  .rodata            const    0x0000438c     0xc  motor.o [1]
+  .rodata            const    0x00004398     0xc  motor.o [1]
+  .rodata            const    0x000043a4     0xc  motor.o [1]
+  .rodata            const    0x000043b0     0xc  motor.o [1]
+  .rodata            const    0x000043bc     0xc  UART.o [1]
+  .text              ro code  0x000043c8     0xc  cstartup_M.o [6]
+  .rodata            const    0x000043d4     0x8  main.o [1]
+  .rodata            const    0x000043dc     0x8  main.o [1]
+  .rodata            const    0x000043e4     0x8  main.o [1]
+  .rodata            const    0x000043ec     0x8  motor.o [1]
+  .rodata            const    0x000043f4     0x8  motor.o [1]
+  .rodata            const    0x000043fc     0x8  motor.o [1]
+  .rodata            const    0x00004404     0x8  motor.o [1]
+  .rodata            const    0x0000440c     0x8  motor.o [1]
+  .rodata            const    0x00004414     0x8  tasks.o [1]
+  .rodata            const    0x0000441c     0x8  timers.o [1]
+  .rodata            const    0x00004424     0x8  timers.o [1]
+  .rodata            const    0x0000442c     0x8  UART.o [1]
+  .rodata            const    0x00004434     0x8  UART.o [1]
+  .rodata            const    0x0000443c     0x4  heap_4.o [1]
+  .rodata            const    0x00004440     0x4  motor.o [1]
+  .rodata            const    0x00004444     0x4  motor.o [1]
+  .rodata            const    0x00004448     0x4  motor.o [1]
+  .rodata            const    0x0000444c     0x4  motor.o [1]
+  .rodata            const    0x00004450     0x4  motor.o [1]
+  .rodata            const    0x00004454     0x4  motor.o [1]
+  .rodata            const    0x00004458     0x4  motor.o [1]
+  .rodata            const    0x0000445c     0x4  motor.o [1]
+  .rodata            const    0x00004460     0x4  port.o [1]
+  .rodata            const    0x00004464     0x4  rit128x96x4.o [1]
+  .rodata            const    0x00004468     0x4  rit128x96x4.o [1]
+  .rodata            const    0x0000446c     0x0  zero_init3.o [6]
+  .rodata            const    0x0000446c     0x0  copy_init3.o [6]
+  Initializer bytes  ro data  0x0000446c    0x38  <for P2 s0>
+                            - 0x000044a4  0x43a4
+
+"P2":                                     0x61ec
+  P2 s0                       0x20000000    0x38  <Init block>
+    .data            inited   0x20000000    0x24  motor.o [1]
+    .data            inited   0x20000024     0x8  main.o [1]
+    .data            inited   0x2000002c     0x4  port.o [1]
+    .data            inited   0x20000030     0x4  tasks.o [1]
+    .data            inited   0x20000034     0x1  main.o [1]
+  .bss               zero     0x20000038  0x5dc0  heap_4.o [1]
+  .bss               zero     0x20005df8    0x64  tasks.o [1]
+  .bss               zero     0x20005e5c    0x50  queue.o [1]
+  .bss               zero     0x20005eac    0x14  tasks.o [1]
+  .bss               zero     0x20005ec0    0x14  tasks.o [1]
+  .bss               zero     0x20005ed4    0x14  tasks.o [1]
+  .bss               zero     0x20005ee8    0x14  tasks.o [1]
+  .bss               zero     0x20005efc    0x14  tasks.o [1]
+  .bss               zero     0x20005f10    0x14  timers.o [1]
+  .bss               zero     0x20005f24    0x14  timers.o [1]
+  .bss               zero     0x20005f38    0x10  TimerHandler.o [1]
+  .bss               zero     0x20005f48     0x8  heap_4.o [1]
+  .bss               zero     0x20005f50     0x8  rit128x96x4.o [1]
+  .bss               zero     0x20005f58     0x8  TimerHandler.o [1]
+  .bss               zero     0x20005f60     0x8  TimerHandler.o [1]
+  .bss               zero     0x20005f68     0x4  common.o [1]
+  .bss               zero     0x20005f6c     0x4  common.o [1]
+  .bss               zero     0x20005f70     0x4  common.o [1]
+  .bss               zero     0x20005f74     0x4  common.o [1]
+  .bss               zero     0x20005f78     0x4  common.o [1]
+  .bss               zero     0x20005f7c     0x4  common.o [1]
+  .bss               zero     0x20005f80     0x4  heap_4.o [1]
+  .bss               zero     0x20005f84     0x4  heap_4.o [1]
+  .bss               zero     0x20005f88     0x4  heap_4.o [1]
+  .bss               zero     0x20005f8c     0x4  heap_4.o [1]
+  .bss               zero     0x20005f90     0x4  main.o [1]
+  .bss               zero     0x20005f94     0x4  main.o [1]
+  .bss               zero     0x20005f98     0x4  port.o [1]
+  .bss               zero     0x20005f9c     0x4  rit128x96x4.o [1]
+  .bss               zero     0x20005fa0     0x4  rit128x96x4.o [1]
+  .bss               zero     0x20005fa4     0x4  rit128x96x4.o [1]
+  .bss               zero     0x20005fa8     0x4  rit128x96x4.o [1]
+  .bss               zero     0x20005fac     0x4  tasks.o [1]
+  .bss               zero     0x20005fb0     0x4  tasks.o [1]
+  .bss               zero     0x20005fb4     0x4  tasks.o [1]
+  .bss               zero     0x20005fb8     0x4  tasks.o [1]
+  .bss               zero     0x20005fbc     0x4  tasks.o [1]
+  .bss               zero     0x20005fc0     0x4  tasks.o [1]
+  .bss               zero     0x20005fc4     0x4  tasks.o [1]
+  .bss               zero     0x20005fc8     0x4  tasks.o [1]
+  .bss               zero     0x20005fcc     0x4  tasks.o [1]
+  .bss               zero     0x20005fd0     0x4  tasks.o [1]
+  .bss               zero     0x20005fd4     0x4  tasks.o [1]
+  .bss               zero     0x20005fd8     0x4  tasks.o [1]
+  .bss               zero     0x20005fdc     0x4  tasks.o [1]
+  .bss               zero     0x20005fe0     0x4  tasks.o [1]
+  .bss               zero     0x20005fe4     0x4  TimerHandler.o [1]
+  .bss               zero     0x20005fe8     0x4  timers.o [1]
+  .bss               zero     0x20005fec     0x4  timers.o [1]
+  .bss               zero     0x20005ff0     0x4  timers.o [1]
+  .bss               zero     0x20005ff4     0x4  timers.o [1]
+  .bss               zero     0x20005ff8     0x4  timers.o [1]
+  .bss               zero     0x20005ffc     0x1  main.o [1]
+  .bss               zero     0x20005ffd     0x1  main.o [1]
+  .bss               zero     0x20005ffe     0x1  main.o [1]
+  .bss               zero     0x20005fff     0x1  main.o [1]
+  .bss               zero     0x20006000     0x1  motor.o [1]
+  .bss               zero     0x20006001     0x1  motor.o [1]
+  .bss               zero     0x20006002     0x1  motor.o [1]
+  .bss               zero     0x20006003     0x1  motor.o [1]
+  .bss               zero     0x20006004     0x1  motor.o [1]
+  .bss               zero     0x20006005     0x1  port.o [1]
+  .bss               zero     0x20006006     0x1  rit128x96x4.o [1]
+  .bss               zero     0x20006007     0x1  TimerHandler.o [1]
+  .bss               zero     0x20006008     0x1  TimerHandler.o [1]
+  .noinit            uninit   0x2000600c   0x1e0  startup_ewarm.o [1]
+                            - 0x200061ec  0x61ec
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5fd1:
+          0x20000038  0x5fd1
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x38 (105% of destination):
+          0x0000446c    0x38
+    1 destination range, total size 0x35:
+          0x20000000    0x35
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj: [1]
+    TimerHandler.o             488       20       38
+    UART.o                     216       52
+    common.o                    34                24
+    heap_4.o                   576      116   24 024
+    keypad.o                   168
+    list.o                     152
+    main.o                     438      149       21
+    motor.o                  3 460      436       41
+    port.o                     464      120        9
+    portasm.o                  148
+    queue.o                  1 844       92       80
+    rit128x96x4.o              832      572       25
+    startup_ewarm.o              6      256      480
+    tasks.o                  3 000      124      260
+    timers.o                   996      108       60
+    ------------------------------------------------
+    Total:                  12 822    2 045   25 062
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+driverlib-cm3.a: [4]
+    adc.o                       28
+    gpio.o                     278
+    interrupt.o                412
+    pwm.o                      126
+    ssi.o                      134
+    sysctl.o                 1 016
+    timer.o                     86
+    ------------------------------------------------
+    Total:                   2 080
+
+grlib.a: [5]
+    ------------------------------------------------
+    Total:
+
+rt7M_tl.a: [6]
+    ABImemcpy_unaligned.o      118
+    ABImemset.o                102
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    copy_init3.o                46
+    cstartup_M.o                12
+    data_init.o                 40
+    memcmp_unaligned.o          98
+    strcmp_unaligned.o          66
+    zero_init3.o                34
+    ------------------------------------------------
+    Total:                     564
+
+    Gaps                        12        2        3
+    Linker created                       39
+----------------------------------------------------
+    Grand Total:            15 486    2 086   25 065
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x000041f9          Code  Gb  cmain.o [6]
+ADCProcessorTrigger     0x00003cd5    0x1c  Code  Gb  adc.o [4]
+Directions              0x00000223    0x7c  Code  Gb  motor.o [1]
+FaultISR                0x00002c45     0x2  Code  Lc  startup_ewarm.o [1]
+GPIODirModeSet          0x0000127d    0x28  Code  Gb  gpio.o [4]
+GPIOPadConfigSet        0x000012a5    0x98  Code  Gb  gpio.o [4]
+GPIOPinTypeGPIOOutput   0x00001347     0xa  Code  Gb  gpio.o [4]
+GPIOPinTypePWM          0x00001363    0x14  Code  Gb  gpio.o [4]
+GPIOPinTypeSSI          0x0000137f    0x14  Code  Gb  gpio.o [4]
+GPIOPinWrite            0x0000133d     0x6  Code  Gb  gpio.o [4]
+IntDefaultHandler       0x00002c47     0x2  Code  Lc  startup_ewarm.o [1]
+IntDisable              0x00003b17    0x56  Code  Gb  interrupt.o [4]
+IntEnable               0x00003ac1    0x56  Code  Gb  interrupt.o [4]
+IntPrioritySet          0x00003a9d    0x24  Code  Gb  interrupt.o [4]
+KeyHandle               0x20005f78     0x4  Data  Gb  common.o [1]
+MotorInit               0x00000101    0xd6  Code  Gb  motor.o [1]
+NmiSR                   0x00002c43     0x2  Code  Lc  startup_ewarm.o [1]
+OLEDMutex               0x20005f74     0x4  Data  Gb  common.o [1]
+Options                 0x0000029f   0x198  Code  Gb  motor.o [1]
+PWMGenConfigure         0x000013c1    0x2c  Code  Gb  pwm.o [4]
+PWMGenEnable            0x00001401     0x6  Code  Gb  pwm.o [4]
+PWMGenPeriodSet         0x000013ed    0x14  Code  Gb  pwm.o [4]
+PWMOutputState          0x0000142d    0x12  Code  Gb  pwm.o [4]
+PWMPulseWidthSet        0x00001407    0x1e  Code  Gb  pwm.o [4]
+RIT128x96x4Clear        0x00001c23    0x4e  Code  Gb  rit128x96x4.o [1]
+RIT128x96x4Enable       0x00001d4f    0x54  Code  Gb  rit128x96x4.o [1]
+RIT128x96x4Init         0x00001da3    0xe8  Code  Gb  rit128x96x4.o [1]
+RIT128x96x4StringDraw   0x00001c71    0xde  Code  Gb  rit128x96x4.o [1]
+RITWriteCommand         0x00001b95    0x44  Code  Lc  rit128x96x4.o [1]
+RITWriteData            0x00001bd9    0x4a  Code  Lc  rit128x96x4.o [1]
+Region$$Table$$Base     0x000041d4           --   Gb  - Linker created -
+Region$$Table$$Limit    0x000041f8           --   Gb  - Linker created -
+SSIConfigSetExpClk      0x000031fd    0x46  Code  Gb  ssi.o [4]
+SSIDataGet              0x00003265     0xc  Code  Gb  ssi.o [4]
+SSIDataGetNonBlocking   0x00003271    0x12  Code  Gb  ssi.o [4]
+SSIDataPut              0x0000325b     0xa  Code  Gb  ssi.o [4]
+SSIDisable              0x0000324f     0xc  Code  Gb  ssi.o [4]
+SSIEnable               0x00003243     0xc  Code  Gb  ssi.o [4]
+SysCtlClockGet          0x0000104b   0x158  Code  Gb  sysctl.o [4]
+SysCtlClockSet          0x00000f35   0x116  Code  Gb  sysctl.o [4]
+SysCtlDelay             0x00000f2d     0x8  Code  Gb  sysctl.o [4]
+SysCtlPeripheralEnable  0x00000ee3    0x1c  Code  Gb  sysctl.o [4]
+SysCtlPeripheralPresent
+                        0x00000e85    0x5e  Code  Gb  sysctl.o [4]
+Timer0ADCIntHandler     0x000038f5   0x110  Code  Gb  TimerHandler.o [1]
+Timer1Init              0x000038b5    0x40  Code  Gb  TimerHandler.o [1]
+Timer1KeyIntHandler     0x00003a05    0x54  Code  Gb  TimerHandler.o [1]
+TimerConfigure          0x00003c89    0x26  Code  Gb  timer.o [4]
+TimerEnable             0x00003c7d     0xc  Code  Gb  timer.o [4]
+TimerIntClear           0x00003ccf     0x4  Code  Gb  timer.o [4]
+TimerIntEnable          0x00003cc5     0x4  Code  Gb  timer.o [4]
+TimerLoadSet            0x00003cb5    0x10  Code  Gb  timer.o [4]
+UARTInit                0x00003735    0x5c  Code  Gb  UART.o [1]
+UART_OutChar            0x00003791    0x10  Code  Gb  UART.o [1]
+UART_OutString          0x000037a1    0x16  Code  Gb  UART.o [1]
+__aeabi_memset          0x000036cd          Code  Gb  ABImemset.o [6]
+__as_entries_start      0xffffffff           --   Gb  command line/config [2]
+__as_table_start        0xffffffff           --   Gb  command line/config [2]
+__cmain                 0x000041f9          Code  Gb  cmain.o [6]
+__exit                  0x00004229          Code  Gb  XXexit.o [6]
+__iar_Memset            0x000036cd          Code  Gb  ABImemset.o [6]
+__iar_Memset_word       0x000036d5          Code  Gb  ABImemset.o [6]
+__iar_copy_init3        0x00001393    0x2e  Code  Gb  copy_init3.o [6]
+__iar_data_init3        0x000041ad    0x28  Code  Gb  data_init.o [6]
+__iar_program_start     0x000043c9          Code  Gb  cstartup_M.o [6]
+__iar_strcmp            0x00003c39          Code  Gb  strcmp_unaligned.o [6]
+__iar_unaligned___aeabi_memcpy
+                        0x00003185          Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned___aeabi_memcpy4
+                        0x000031a5          Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned___aeabi_memcpy8
+                        0x000031a5          Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned_memcmp  0x00003669          Code  Gb  memcmp_unaligned.o [6]
+__iar_unaligned_strcmp  0x00003c39          Code  Gb  strcmp_unaligned.o [6]
+__iar_zero_init3        0x0000143f    0x22  Code  Gb  zero_init3.o [6]
+__low_level_init        0x00004213     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000   0x100  Data  Gb  startup_ewarm.o [1]
+_call_main              0x00004205          Code  Gb  cmain.o [6]
+_exit                   0x0000421d          Code  Gb  cexit.o [6]
+_main                   0x0000420f          Code  Gb  cmain.o [6]
+bluetoothInit           0x000037b7    0x1c  Code  Gb  UART.o [1]
+debounceCount           0x20006007     0x1  Data  Gb  TimerHandler.o [1]
+exit                    0x00004217     0x4  Code  Gb  exit.o [3]
+g_bSSIEnabled           0x20006006     0x1  Data  Lc  rit128x96x4.o [1]
+g_pucBuffer             0x20005f50     0x8  Data  Lc  rit128x96x4.o [1]
+g_pucFont               0x00003d14   0x1e0  Data  Lc  rit128x96x4.o [1]
+g_pucRIT128x96x4HorizontalInc
+                        0x00003282     0x2  Data  Lc  rit128x96x4.o [1]
+g_pucRIT128x96x4Init    0x0000415c    0x50  Data  Lc  rit128x96x4.o [1]
+g_pucRIT128x96x4VerticalInc
+                        0x000031fa     0x2  Data  Lc  rit128x96x4.o [1]
+g_pulDCRegs             0x000011f4    0x10  Data  Lc  sysctl.o [4]
+g_pulDisRegs            0x00003c24    0x14  Data  Lc  interrupt.o [4]
+g_pulEnRegs             0x00003c10    0x14  Data  Lc  interrupt.o [4]
+g_pulRCGCRegs           0x00001204     0xc  Data  Lc  sysctl.o [4]
+g_pulRegs               0x00003b74    0x9c  Data  Lc  interrupt.o [4]
+g_pulXtals              0x00001210    0x6c  Data  Lc  sysctl.o [4]
+getkey                  0x0000386f    0x1c  Code  Gb  keypad.o [1]
+instMutex               0x20000034     0x1  Data  Gb  main.o [1]
+instantDist             0x20005f58     0x8  Data  Gb  TimerHandler.o [1]
+key_init                0x0000380d    0x62  Code  Gb  keypad.o [1]
+main                    0x00002a8d    0x70  Code  Gb  main.o [1]
+menuHandle              0x20005f7c     0x4  Data  Gb  common.o [1]
+motorControl            0x000001d7    0x4c  Code  Gb  motor.o [1]
+myMutexGive             0x00003d01    0x12  Code  Gb  common.o [1]
+myMutexTake             0x00003cf1    0x10  Code  Gb  common.o [1]
+pcInterruptPriorityRegisters
+                        0x00004460     0x4  Data  Lc  port.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x000027d1    0x4e  Code  Lc  tasks.o [1]
+prvAllocateTCBAndStack  0x0000281f    0x4a  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                        0x000035e3    0x5e  Code  Lc  timers.o [1]
+prvCheckTasksWaitingTermination
+                        0x0000276b    0x66  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x000019e9    0x2a  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x00001967    0x82  Code  Lc  queue.o [1]
+prvDeleteTCB            0x00002869    0x12  Code  Lc  tasks.o [1]
+prvGetNextExpireTime    0x000033ed    0x28  Code  Lc  timers.o [1]
+prvHeapInit             0x0000300d    0x64  Code  Lc  heap_4.o [1]
+prvIdleTask             0x000026b5     0x8  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables
+                        0x000026bd    0x56  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x00002713    0x58  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                        0x00003071    0x5c  Code  Lc  heap_4.o [1]
+prvInsertTimerInActiveList
+                        0x0000343d    0x3e  Code  Lc  timers.o [1]
+prvIsQueueEmpty         0x00001a95    0x1c  Code  Lc  queue.o [1]
+prvIsQueueFull          0x00001ab1    0x1e  Code  Lc  queue.o [1]
+prvNotifyQueueSetContainer
+                        0x00001b31    0x58  Code  Lc  queue.o [1]
+prvProcessExpiredTimer  0x0000332f    0x58  Code  Lc  timers.o [1]
+prvProcessReceivedCommands
+                        0x0000347b    0xec  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask
+                        0x0000339d    0x50  Code  Lc  timers.o [1]
+prvResetNextTaskUnblockTime
+                        0x0000287b    0x2c  Code  Lc  tasks.o [1]
+prvSampleTimeNow        0x00003415    0x28  Code  Lc  timers.o [1]
+prvSetupHardware        0x00002afd    0x22  Code  Lc  main.o [1]
+prvSwitchTimerLists     0x00003567    0x7c  Code  Lc  timers.o [1]
+prvTaskExitError        0x00002c65    0x1a  Code  Lc  port.o [1]
+prvTimerTask            0x00003389    0x14  Code  Lc  timers.o [1]
+prvUnlockQueue          0x00001a13    0x82  Code  Lc  queue.o [1]
+pulStack                0x2000600c   0x1e0  Data  Lc  startup_ewarm.o [1]
+pvPortMalloc            0x00002eb1    0xf4  Code  Gb  heap_4.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x00002a1d    0x1e  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x20005fac     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x20005fe8     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x20005fb0     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x20005f80     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x20005fb4     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x20005fec     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack   0x00002c49    0x1c  Code  Gb  port.o [1]
+pxReadyTasksLists       0x20005df8    0x64  Data  Lc  tasks.o [1]
+sumDist                 0x20005f38    0x10  Data  Gb  TimerHandler.o [1]
+ucHeap                  0x20000038  0x5dc0  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x20006005     0x1  Data  Lc  port.o [1]
+ulGPIOBase              0x20005fa0     0x4  Data  Gb  rit128x96x4.o [1]
+ulGPIOId                0x20005f9c     0x4  Data  Gb  rit128x96x4.o [1]
+ulMaxPRIGROUPValue      0x20005f98     0x4  Data  Lc  port.o [1]
+ulOLEDDC_PIN            0x20005fa4     0x4  Data  Gb  rit128x96x4.o [1]
+ulOLEDEN_PIN            0x20005fa8     0x4  Data  Gb  rit128x96x4.o [1]
+ulPortSetInterruptMask  0x0000312f          Code  Gb  portasm.o [1]
+uxCriticalNesting       0x2000002c     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x20005fc0     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x00002e8b    0x26  Code  Gb  list.o [1]
+uxPendedTicks           0x20005fd0     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x20005fe0     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x20005fdc     0x4  Data  Lc  tasks.o [1]
+uxTasksDeleted          0x20005fb8     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x20005fc8     0x4  Data  Lc  tasks.o [1]
+vApplicationStackOverflowHook
+                        0x00002c29     0x2  Code  Gb  main.o [1]
+vApplicationTickHook    0x00002b87    0x4c  Code  Gb  main.o [1]
+vAssertCalled           0x00002c2b    0x18  Code  Gb  main.o [1]
+vKeyTask                0x00002b21    0x66  Code  Lc  main.o [1]
+vListInitialise         0x00002e19    0x1e  Code  Gb  list.o [1]
+vListInitialiseItem     0x00002e37     0x6  Code  Gb  list.o [1]
+vListInsert             0x00002e55    0x36  Code  Gb  list.o [1]
+vListInsertEnd          0x00002e3d    0x18  Code  Gb  list.o [1]
+vMenu                   0x00000449   0x9a6  Code  Gb  motor.o [1]
+vPortClearInterruptMask
+                        0x0000313d          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x00002d19    0x34  Code  Gb  port.o [1]
+vPortExitCritical       0x00002d4d    0x2e  Code  Gb  port.o [1]
+vPortFree               0x00002fa5    0x68  Code  Gb  heap_4.o [1]
+vPortSVCHandler         0x00003143          Code  Gb  portasm.o [1]
+vPortSetupTimerInterrupt
+                        0x00002d9b    0x10  Code  Wk  port.o [1]
+vPortStartFirstTask     0x00003163          Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                        0x00002dad    0x40  Code  Gb  port.o [1]
+vPortYield              0x00002d07    0x12  Code  Gb  port.o [1]
+vQueueAddToRegistry     0x00001acf    0x24  Code  Gb  queue.o [1]
+vQueueWaitForMessageRestricted
+                        0x00001af3    0x3e  Code  Gb  queue.o [1]
+vTaskDelay              0x000020e5    0x6e  Code  Gb  tasks.o [1]
+vTaskDelayUntil         0x00002031    0xb4  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x0000269d     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x00002495    0x6c  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                        0x00002515    0x5c  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x000028d1    0xaa  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x000025fd    0x26  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x00002153    0x60  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x000021b3    0x10  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x000023e3    0xac  Code  Gb  tasks.o [1]
+xActiveTimerList1       0x20005f10    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x20005f24    0x14  Data  Lc  timers.o [1]
+xBlockAllocatedBit      0x20005f8c     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x20005eac    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x20005ec0    0x14  Data  Lc  tasks.o [1]
+xFreeBytesRemaining     0x20005f84     0x4  Data  Lc  heap_4.o [1]
+xHeapStructSize         0x0000443c     0x4  Data  Lc  heap_4.o [1]
+xIdleTaskHandle         0x20005fbc     0x4  Data  Lc  tasks.o [1]
+xKeyQueue               0x20005f70     0x4  Data  Gb  common.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x20005f88     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x20000030     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x20005fd8     0x4  Data  Lc  tasks.o [1]
+xOLEDQueue              0x20005f68     0x4  Data  Gb  common.o [1]
+xPendingReadyList       0x20005ed4    0x14  Data  Lc  tasks.o [1]
+xPortPendSVHandler      0x000030f1          Code  Gb  portasm.o [1]
+xPortStartScheduler     0x00002c7f    0x88  Code  Gb  port.o [1]
+xPortSysTickHandler     0x00002d7b    0x20  Code  Gb  port.o [1]
+xQueueCreateMutex       0x00001545    0x70  Code  Gb  queue.o [1]
+xQueueGenericCreate     0x000014dd    0x68  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x000017fd   0x16a  Code  Gb  queue.o [1]
+xQueueGenericReset      0x00001461    0x7c  Code  Gb  queue.o [1]
+xQueueGenericSend       0x000015b5   0x170  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x00001725    0xd8  Code  Gb  queue.o [1]
+xQueueRegistry          0x20005e5c    0x50  Data  Gb  queue.o [1]
+xSchedulerRunning       0x20005fcc     0x4  Data  Lc  tasks.o [1]
+xStart                  0x20005f48     0x8  Data  Lc  heap_4.o [1]
+xSumQueue               0x20005f6c     0x4  Data  Gb  common.o [1]
+xSuspendedTaskList      0x20005efc    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x00002623    0x7a  Code  Gb  tasks.o [1]
+xTaskGenericCreate      0x00001ed5   0x15c  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x000028a7    0x20  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x000022b1     0x8  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x000022b9   0x12a  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x0000297b    0x98  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x00002575    0x80  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x000021c3    0xee  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20005ee8    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x20005fc4     0x4  Data  Lc  tasks.o [1]
+xTimerCreateTimerTask   0x00003285    0x4c  Code  Gb  timers.o [1]
+xTimerGenericCommand    0x000032d1    0x5e  Code  Gb  timers.o [1]
+xTimerQueue             0x20005ff0     0x4  Data  Lc  timers.o [1]
+xTimerTaskHandle        0x20005ff4     0x4  Data  Lc  timers.o [1]
+xYieldPending           0x20005fd4     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\StellarisWare\boards\ek-lm3s8962\FreeRTOSV8.2.0_3_nodemo_cm3lib\FreeRTOS\Demo\CORTEX_LM3Sxxxx_IAR_Keil\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = driverlib-cm3.a
+[5] = grlib.a
+[6] = rt7M_tl.a
+
+  15 486 bytes of readonly  code memory
+   2 086 bytes of readonly  data memory
+  25 065 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
