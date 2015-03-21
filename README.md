@@ -14,7 +14,9 @@ A semi autonomous and autonomous mode giving the ADC sensors some and full contr
 
 
 RoboTank Inputs: ADC sensor data and receive control commands via UART using Bluetooth SPP.
+
 RoboTank Outputs: PWMs the control the motor and the operation of RoboTank.
 
 Controller Inputs: User key presses to select modes, and control commands.
+
 Controller Outputs: Control commands sent out via UART using Bluetooth SPP.
